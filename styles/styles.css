@@ -9,44 +9,44 @@ button{
 }
 
 header{
+  margin-bottom: 150px;
   width: 100%;
   height: 765px;
   background-image: url('../resources/man.png');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-bottom: 150px;
 }
 
 h1{
+  color: #1BFF07;
+  line-height: 70px;
   font-weight: 400;
   font-size: 80px;
-  line-height: 70px;
-  color: #1BFF07;
 }
 
 h2{
+  line-height: 71px;
   font-weight: 400;
   font-size: 55px;
-  line-height: 71px;
 }
 
 h3{
+  line-height: 45px;
   font-weight: 400;
   font-size: 35px;
-  line-height: 45px;
 }
 
 h4,button{
+  line-height: 39px;
   font-weight: 400;
   font-size: 30px;
-  line-height: 39px;
 }
 
 p{
-  font-weight: 400;
-  font-size: 22px;
   line-height: 28px;
   color: white;
+  font-weight: 400;
+  font-size: 22px;
 }
 
 a,p,h1,h2,h3,h4,button{
@@ -58,12 +58,10 @@ a,p,h1,h2,h3,h4,button{
   font-size: 42px;
   letter-spacing: -0.11em;
   color: #1BFF07;
-
   padding: 10px 12px;
   border-radius: 100px;
   background-color: black;
   width: 150px;
-
   user-select: none;
 }
 
@@ -73,20 +71,20 @@ a,p,h1,h2,h3,h4,button{
 }
 
 .header_panel{
+  margin-bottom: 252px;
   padding-top: 33px;
   display: flex;
   justify-content: space-between;
   /* justify-content: space-around; */
-  margin-bottom: 252px;
 }
 
 nav a{
+  margin-right: 50px;
   text-decoration: none;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   color: white;
-  margin-right: 50px;
 }
 
 nav a:last-child{
@@ -98,8 +96,8 @@ nav a:hover{
 }
 
 .header_content p{
-  width: 430px;
   margin-bottom: 29px;
+  width: 430px;
   font-size: 20px;
   line-height: 26px;
 }
@@ -109,8 +107,8 @@ nav a:hover{
 }
 
 .fresh_projects{
-  color: white;
   margin-bottom: 150px;
+  color: white;
 }
 
 .fresh_projects h2{
@@ -122,7 +120,6 @@ nav a:hover{
   height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
-
   position: relative;
 }
 
@@ -139,7 +136,6 @@ nav a:hover{
   margin-bottom: 80px;
 }
 
-
 .project_item_text{
   margin-left: 50px;
   position: absolute;
@@ -148,10 +144,10 @@ nav a:hover{
 
 .fresh_projects button{
   padding: 56px 120px;
-  background-color: #1BFF07;
-  border-radius: 10px;
   cursor: pointer;
   border: 1px solid #1BFF07;
+  background-color: #1BFF07;
+  border-radius: 10px;
 }
 
 .fresh_projects button:hover{
@@ -183,6 +179,7 @@ nav a:hover{
 }
 
 .competence_item h3::before{
+  margin-bottom: 20px;
   content: '';
   display: block;
   width: 45px;
@@ -190,7 +187,6 @@ nav a:hover{
   background-image: url(../resources/html_ico.png);
   background-repeat: no-repeat;
   background-size: contain;
-  margin-bottom: 20px;
 }
 
 .competence_item:nth-child(3) h3::before{
@@ -228,8 +224,8 @@ nav a:hover{
 }
 
 .service_item_text h2{
-  color: #1BFF07;
   margin-bottom: 20px;
+  color: #1BFF07;
 }
 
 .service_item_text p{
@@ -241,12 +237,12 @@ nav a:hover{
 }
 
 .communication{
+  border-radius: 30px;
+  margin-bottom: 150px;
   max-width: 1400px; 
   height: 717px;
   margin: 0 auto;
   background-color: #191C19;
-  border-radius: 30px;
-  margin-bottom: 150px;
 }
 
 .communication_container{
@@ -270,18 +266,17 @@ nav a:hover{
 
 .communication_container_text h3{
   line-height: 60px;
-  color: white;
   margin-bottom: 28px;
+  color: white;
 }
 
 .communication_container_text a{
   text-decoration: none;
+  margin-bottom: 20px;
   font-weight: 400;
   font-size: 60px;
   line-height: 60px;
   color: white;
-  margin-bottom: 20px;
-
   display: flex;
   flex-direction: column;
 }
@@ -309,7 +304,7 @@ footer p:first-child{
 }
 
 footer p:last-child{
+  padding-bottom: 30px;
   color: black;
   opacity: 0.5;
-  padding-bottom: 30px;
 }
